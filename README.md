@@ -80,7 +80,7 @@ Your machine already installed `Apache Spark` (version 3.1.2), `Scala` (version 
    --conf "spark.memory.offHeap.enabled=true" \
    --conf "spark.memory.offHeap.size=1g" \
    --class org.data.Ingestion \
-   path/to/jar_file/timo-pipeline.jar <path/to/data/landing> <start_date YYYY-mm-dd> [<end-date YYYY-mm-dd>]
+   path/to/jar_file/timo-pipeline.jar <path/to/data/landing> [<start_date YYYY-mm-dd>] [<end-date YYYY-mm-dd>]
 ```
 This pipeline has 3 running mode:
 1. **Inital load**: (load all data) just specific the data path
