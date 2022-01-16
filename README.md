@@ -1,4 +1,4 @@
-##Overview
+## Overview
 This project is to ingest data in `Json` format into optimal data format for reporting purpose. 
 The considerated data format is `Apache Parquet`, which is a columnar storage format available to any project in the Hadoop ecosystem, 
 regardless of the choice of data processing framework, 
