@@ -66,6 +66,8 @@ df.show()
 ## How to run
 ### Assumption
 Your machine already installed `Apache Spark` (version 3.1.2), `Scala` (version 2.12.10), `sbt` and `sbt-assembly`.
+
+The data soucre is stored on this machine.
 ### Step
 1. Build jar file ```sbt assembly```.
 2. Submit the job 
